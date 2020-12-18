@@ -1,9 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Internal Links</title>
+	<title>Class Selectors</title>
+	<header>
+		<h1>Welcome to my link of class selectors</h1>
+
+		<style>
+	header li{
+		list-style: none;
+	}
+	a:link, a:visited {
+		text-decoration: none;
+		background-color: black;
+		border: 1px solid gray;
+		color: red;
+		display: block;
+		width: 150px;
+		text-align: left;
+		margin-bottom: 2px;
+	}
+
+	a:hover, a:active {
+background-color: blue;
+color: yellow
+}
+</style>
+
+		<a href="index.html" title="same dir link">Return To Main Page
+	</a>
+
+	</header>
+
 </head>
 <body>
+	<!--class selectors-->
+	<style>
+		p{
+			color:red;
+		}
+	</style>
+	<h1>
+		Element Selector
+		<p>P{ 
+	}</p>
+	</h1>
+	<h1>
+		Class Selector
+		<p>.Red {
+		
+	}</p>
+	</h1>
+	<h1>
+		ID Selector
+		<p>#Marketprice</p>
+	</h1>
 
 </body>
 </html>

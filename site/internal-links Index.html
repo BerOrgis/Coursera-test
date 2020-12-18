@@ -1,9 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Internal Links</title>
+	<title>Pesudo Class</title>
+	<header>
+		<h1>Welcome to my second link about Pseudo Class</h1>
+		<!--return to page-->
+		
+		<a href="index.html" title="same dir link">Return To Main Page
+	</a>
+
+	</header>
 </head>
 <body>
+	<!--Pseudo Selector and Styles go here-->
+<style>
+	body li{
+		list-style: none;
+	}
+	a:link, a:visited {
+		text-decoration: none;
+		background-color: black;
+		border: 1px solid gray;
+		color: red;
+		display: block;
+		width: 150px;
+		text-align: left;
+		margin-bottom: 2px;
+	}
+a:hover, a:active {
+background-color: blue;
+color: yellow
+}
+</style>
+<a href="internal links index.html" title="same dir link"> Class Selectors </a>
 
 </body>
 </html>

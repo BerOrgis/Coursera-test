@@ -6,20 +6,67 @@
  <title>Welcome To My frist HTML Website</title>
 </head>
 <body>
-	//// Header Uesing H3 Tag And Nav Tag  to help Navagate through the Website ////
-	<header><h3>Header</h3>
-		<nav></nav></header>
-		<section>
-        <a href="internal-links.html" title="same dir link">linking to a file in the same directory</a>
+	<!--Header Uesing H3 Tag And Nav Tag to help Navagate through the Website -->
+	<header><h3 style="color: blue"> Header</h3>
+			<nav></nav></header>
+			<!--Css-->
+		<style>
+			p{
+				color:red;
+				font-size:25px;
+				text-align: left;
+			}
+			h1{
+				color:purple;
+				font-size:35px;
+				text-align:center;
+			}
 
-		<a href="internal-links.html" title="same dir link">
-			<div>internal links</div>
+			a {
+				font-size:25px;
+			}
+
+	header li{
+		list-style: none;
+	}
+	a:link, a:visited {
+		text-decoration: none;
+		background-color: black;
+		border: 1px solid gray;
+		color: red;
+		display: block;
+		width: 150px;
+		text-align: left;
+		margin-bottom: 2px;
+
+	}
+a:hover, a:active {
+background-color: blue;
+color: yellow;
+}
+		</style>
+            <!--Css-->
+		<section>
+        <a href="internal links index.html" title="same dir link">Class Selectors</a>
+
+		<a href="internal-links index.html" title="same dir link">
+			<div>Pseudo Class</div>
 		</a>
+
+		<h1>External links</h1>
+		<p>Let's link to a torahanytime video page
+			<!--link to torahanytime page with target-->
+		
+				<a href="https://www.torahanytime.com/#/lectures?v=41366"target ="_blank" title="like our page!">Torahanytime page</a>
+			</p>
+
 	</section>
 
    //// Business Name or Major Updates ////
  <h1 style="color: green; font-size: 50px; text-align: center;">
  HTML is Structure Only</h1>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/220px-Image_created_with_a_mobile_phone.png" width="220" height="165">
 
   //// Main Content ////
 <h1>Hello Coursera</h1>
